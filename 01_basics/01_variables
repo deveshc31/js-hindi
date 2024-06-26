@@ -1,0 +1,20 @@
+const account_Id=144553
+let account_email="deveshc31@gmail.com"
+var account_passsword="12345"
+account_city="jaipur"
+let account_state;
+// account_Id=2
+account_email="dc@dc.com"
+account_password="838383"
+account_city="bareilly"
+
+
+// console.log(account_Id);
+// now if i want to print all these variables i have to do it aggain and again like console.log(account_email) pw city etc....
+// what can i do is i can use square bracket and type all together
+
+console.table([account_Id,account_email,account_passsword,account_city,account_state]);
+/*
+preffer not to use var 
+because of issues in block scope and functional scope
+*/
